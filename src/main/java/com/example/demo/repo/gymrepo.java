@@ -2,10 +2,8 @@ package com.example.demo.repo;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.example.demo.model.gymdata;
+import com.example.demo.model.Gymdata;
 
-public abstract class GymRepo implements JpaRepository<gymdata, Integer> {
+public interface GymRepo extends JpaRepository<Gymdata, Integer> {
 
-	
-	
 }
