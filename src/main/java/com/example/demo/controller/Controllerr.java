@@ -22,8 +22,16 @@ public class Controllerr {
 	    }
 	
 	 
-	 @RequestMapping("/test")
+	 @RequestMapping("/test1")
 	    String myfun1(Model m) {
+
+	       
+
+	        return "index.html";
+	    }
+	 
+	 @RequestMapping("/test2")
+	    String myfun2(Model m) {
 
 	       
 
