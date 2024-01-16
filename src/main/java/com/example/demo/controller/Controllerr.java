@@ -9,6 +9,10 @@ import org.springframework.stereotype.Controller;
 public class Controllerr {
 	
 	
+	
+	
+	
+	
 	 @RequestMapping("/test")
 	    String myfun(Model m) {
 
@@ -17,6 +21,16 @@ public class Controllerr {
 	        return "index.html";
 	    }
 	
+	 
+	 @RequestMapping("/test")
+	    String myfun1(Model m) {
+
+	       
+
+	        return "index.html";
+	    }
 	
 
+	 
+	 
 }
