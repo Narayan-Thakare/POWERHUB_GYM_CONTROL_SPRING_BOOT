@@ -30,13 +30,6 @@ public class Controllerr {
 	        return "index.html";
 	    }
 	 
-	 @RequestMapping("/test2")
-	    String myfun2(Model m) {
-
-	       
-
-	        return "index.html";
-	    }
 	
 
 	 
