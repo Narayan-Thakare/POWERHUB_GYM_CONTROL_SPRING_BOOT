@@ -22,14 +22,6 @@ public class Controllerr {
 	    }
 	
 	 
-	 @RequestMapping("/test1")
-	    String myfun1(Model m) {
-
-	       
-
-	        return "index.html";
-	    }
-	 
 	
 
 	 
